@@ -1,0 +1,41 @@
+{
+    "name": "larva/laravel-pexels",
+    "description": "This is a Laravel expansion for the pexels.",
+    "keywords": [
+        "Larva",
+        "laravel",
+        "pexels"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "ext-simplexml": "*",
+        "ext-dom": "*",
+        "ext-json": "*",
+        "ext-libxml": "*",
+        "illuminate/http": "^7.0 || ^8.0",
+        "illuminate/support": "^7.0 || ^8.0",
+        "illuminate/bus": "^7.0 || ^8.0",
+        "illuminate/queue": "^7.0 || ^8.0",
+        "larva/support": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Larva\\Pexels\\": "src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        },
+        "laravel": {
+            "providers": [
+                "Larva\\Pexels\\PexelsServiceProvider"
+            ],
+            "aliases": {
+                "Pexels": "Larva\\Pexels\\Pexels"
+            }
+        }
+    },
+    "prefer-stable": true
+}
