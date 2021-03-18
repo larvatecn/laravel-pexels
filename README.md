@@ -2,6 +2,7 @@
 
 This is a baidu cloud expansion for the laravel
 
+[![PHP Composer](https://github.com/larvatecn/laravel-pexels/actions/workflows/php.yml/badge.svg)](https://github.com/larvatecn/laravel-pexels/actions/workflows/php.yml)
 [![License](https://poser.pugx.org/larva/laravel-pexels/license.svg)](https://packagist.org/packages/larva/laravel-pexels)
 [![Latest Stable Version](https://poser.pugx.org/larva/laravel-pexels/v/stable.png)](https://packagist.org/packages/larva/laravel-pexels)
 [![Total Downloads](https://poser.pugx.org/larva/laravel-pexels/downloads.png)](https://packagist.org/packages/larva/laravel-pexels)
