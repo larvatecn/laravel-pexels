@@ -19,9 +19,17 @@
         "illuminate/queue": "^7.0 || ^8.0",
         "larva/support": "^1.0"
     },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
     "autoload": {
         "psr-4": {
             "Larva\\Pexels\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Larva\\Pexels\\Tests\\": "tests"
         }
     },
     "extra": {
